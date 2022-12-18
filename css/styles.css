@@ -1,0 +1,151 @@
+body {
+font-family: "Roboto", sans-serif;
+background: #E5E5E5;
+}
+
+.header-link {
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+color: #2E2F42;
+}
+.header-word {
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+color: #4D5AE5;
+}
+.header-link {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.header-mail, .header-tel {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.main-section {
+background: #2E2F42;
+}
+.main-title {
+font-weight: 500;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.main-button {
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.18;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+cursor: pointer;
+color: #FFFFFF;
+background: #4D5AE5;
+}
+.section-title {
+font-weight: 700;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.section-parapraph {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+.title-item {
+font-weight: 700;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.title-paragraph {
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.footer {
+background: #2E2F42;
+}
+.footer-link {
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+}
+.footer-paragraph {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+.prev {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+cursor: pointer;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background: #4D5AE5;
+}
+.next {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+cursor: pointer;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+background: #F4F4FD;
+}
+.container {
+font-weight: 700;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.item {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
