@@ -1,151 +1,211 @@
-body {
-font-family: "Roboto", sans-serif;
-background: #E5E5E5;
+:root {
+  --link-color: #2e2f42;
+  --title-color: #2e2f42;
+  --background-color: #2e2f42;
+  --second-link-color: #4d5ae5;
+  --button-color: #4d5ae5;
+  --footer-heade-color: #4d5ae5;
+  --main-color: #ffffff;
+  --text-color: #ffffff;
 }
-
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--main-color);
+  font-size: 18px;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
 .header-link {
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-letter-spacing: 0.03em;
-color: #2E2F42;
+  font-family: "Releway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: var(--link-color);
 }
 .header-word {
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-letter-spacing: 0.03em;
-color: #4D5AE5;
+  font-family: "Releway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: var(--footer-heade-color);
 }
 .header-link {
-font-weight: 700;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2E2F42;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--link-color);
 }
-.header-mail, .header-tel {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+.header-mail,
+.header-tel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .main-section {
-background: #2E2F42;
+  background: var(--background-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--second-link-color);
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--second-link-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--second-link-color);
 }
 .main-title {
-font-weight: 500;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color: #FFFFFF;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 .main-button {
-font-family: inherit;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.18;
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
-cursor: pointer;
-color: #FFFFFF;
-background: #4D5AE5;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.18;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--main-color);
+  background: var(--button-color);
+}
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--button-color);
 }
 .section-title {
-font-weight: 700;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 .section-parapraph {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.team {
+  background: #f4f4fd;
 }
 .title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.1;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2E2F42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
 }
 .title-item {
-font-weight: 700;
-font-size: 20px;
-line-height: 1.2;
-text-align: center;
-letter-spacing: 0.02em;
-color: #2E2F42;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 .title-paragraph {
-font-size: 16px;
-line-height: 1.5;
-text-align: center;
-letter-spacing: 0.02em;
-color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .footer {
-background: #2E2F42;
+  background: var(--background-color);
 }
 .footer-link {
-font-weight: 800;
-font-size: 18px;
-line-height: 1.16;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #F4F4FD;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 .footer-paragraph {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #E7E9FC;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--footer-heade-color);
 }
 .prev {
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-cursor: pointer;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-background: #4D5AE5;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  color: var(--text-color);
+  background: var(--button-color);
+}
+.prev:hover,
+.prev:focus {
+  background-color: var(--button-color);
 }
 .next {
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-cursor: pointer;
-letter-spacing: 0.04em;
-color: #4D5AE5;
-background: #F4F4FD;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  color: var(--button-color);
+  background: #f4f4fd;
+}
+.next:hover,
+.next:focus {
+  background-color: #404bbf;
+  color: var(--text-color);
 }
 .container {
-font-weight: 700;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 .item {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
