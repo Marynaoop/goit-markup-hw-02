@@ -1,46 +1,47 @@
 :root {
-  --link-color: #2e2f42;
   --title-color: #2e2f42;
-  --background-color: #2e2f42;
-  --second-link-color: #4d5ae5;
-  --button-color: #4d5ae5;
-  --footer-heade-color: #4d5ae5;
+  --link-color: #4d5ae5;
   --main-color: #ffffff;
-  --text-color: #ffffff;
+  --header-color: #434455;
+  --background-color: #f4f4fd;
+  --paragraph-color: #e7e9fc;
+  --b-color: #404bbf;
 }
 body {
   font-family: "Roboto", sans-serif;
   background: var(--main-color);
-  font-size: 18px;
 }
 .list {
   list-style: none;
+}
+.list-tem {
+  background-color: #ffffff;
 }
 .link {
   text-decoration: none;
 }
 .header-link {
-  font-family: "Releway";
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+.header-word {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
   color: var(--link-color);
-}
-.header-word {
-  font-family: "Releway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
-  color: var(--footer-heade-color);
 }
 .header-link {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--link-color);
+  color: var(--title-color);
 }
 .header-mail,
 .header-tel {
@@ -48,22 +49,22 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--header-color);
 }
 .main-section {
-  background: var(--background-color);
+  background: var(--title-color);
 }
 .header-link:hover,
 .header-link:focus {
-  color: var(--second-link-color);
+  color: var(--link-color);
 }
 .header-mail:hover,
 .header-mail:focus {
-  color: var(--second-link-color);
+  color: var(--link-color);
 }
 .header-tel:hover,
 .header-tel:focus {
-  color: var(--second-link-color);
+  color: var(--link-color);
 }
 .main-title {
   font-weight: 500;
@@ -83,11 +84,11 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--main-color);
-  background: var(--button-color);
+  background: var(--link-color);
 }
 .main-button:hover,
 .main-button:focus {
-  background-color: var(--button-color);
+  background-color: var(--b-color);
 }
 .section-title {
   font-weight: 700;
@@ -100,10 +101,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--header-color);
 }
 .team {
-  background: #f4f4fd;
+  background: var(--background-color);
 }
 .title {
   font-weight: 700;
@@ -127,12 +128,13 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--header-color);
 }
 .footer {
-  background: var(--background-color);
+  background: var(--title-color);
 }
 .footer-link {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
@@ -140,17 +142,17 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--background-color);
 }
 .footer-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--paragraph-color);
 }
 .footer-link:hover,
 .footer-link:focus {
-  color: var(--footer-heade-color);
+  color: var(--link-color);
 }
 .prev {
   font-family: inherit;
@@ -162,12 +164,12 @@ body {
   text-align: center;
   cursor: pointer;
   letter-spacing: 0.04em;
-  color: var(--text-color);
-  background: var(--button-color);
+  color: var(--main-color);
+  background: var(--link-color);
 }
 .prev:hover,
 .prev:focus {
-  background-color: var(--button-color);
+  background-color: var(--link-color);
 }
 .next {
   font-family: inherit;
@@ -176,13 +178,13 @@ body {
   line-height: 1.5;
   cursor: pointer;
   letter-spacing: 0.04em;
-  color: var(--button-color);
-  background: #f4f4fd;
+  color: var(--link-color);
+  background: var(--background-color);
 }
 .next:hover,
 .next:focus {
-  background-color: #404bbf;
-  color: var(--text-color);
+  background-color: var(--b-color);
+  color: var(--main-color);
 }
 .container {
   font-weight: 700;
@@ -195,7 +197,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--header-color);
 }
 .visually-hidden {
   position: absolute;
